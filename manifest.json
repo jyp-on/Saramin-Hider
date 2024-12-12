@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "사람인 채용공고 숨기기",
+    "name": "Saramin Hider",
     "version": "1.0",
     "description": "사람인 채용공고 숨기기 기능을 제공합니다",
     "permissions": [
