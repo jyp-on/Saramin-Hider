@@ -16,7 +16,7 @@
 ## 설치 방법
 
 ### 1. Chrome 웹 스토어에서 설치 (권장)
-- 추후 제공 예정
+- [Chrome 웹 스토어 - Saramin Hider](https://chromewebstore.google.com/detail/saramin-hider/jllfdglpnbehogfcfnmfekianpjfkone)에서 '크롬에 추가' 버튼을 클릭합니다
 
 ### 2. 수동 설치
 1. 이 저장소를 클론하거나 다운로드합니다
