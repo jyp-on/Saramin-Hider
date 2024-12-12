@@ -1,0 +1,29 @@
+.hide-job-button {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    background: #ff6b6b;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    opacity: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.company_nm:hover .hide-job-button {
+    opacity: 1;
+}
+
+.hide-job-button:hover {
+    background: #ff5252;
+    transform: scale(1.05);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.hide-job-button:active {
+    transform: scale(0.95);
+}

@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "사람인 채용공고 숨기기",
+    "version": "1.0",
+    "description": "사람인 채용공고 숨기기 기능을 제공합니다",
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "https://www.saramin.co.kr/*"
+    ],
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.saramin.co.kr/*"],
+            "js": ["content/content.js"],
+            "css": ["content/content.css"]
+        }
+    ]
+}
